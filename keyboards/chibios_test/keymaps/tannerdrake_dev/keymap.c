@@ -15,11 +15,21 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "chibios_test.h"
+#include "tannerdrake_dev.h"
 
 const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     {{KC_A}}, // test with KC_CAPS, KC_A, RESET
 };
 
 const uint16_t fn_actions[] = {
+};
+
+// Runs just one time when the keyboard initializes.
+void matrix_init_user(void) {
+
+};
+
+// Runs constantly in the background, in a loop.
+void matrix_scan_user(void) {
+
 };
