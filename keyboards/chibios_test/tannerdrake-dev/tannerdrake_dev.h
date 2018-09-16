@@ -1,5 +1,6 @@
-#ifndef TEENSY_LC_ONEKEY_H
-#define TEENSY_LC_ONEKEY_H
+#ifndef TANNERDRAKE_DEV_H
+#define TANNERDRAKE_DEV_H
+
 #include "chibios_test.h"
 
 #define LAYOUT(k00) {{ k00 }}
