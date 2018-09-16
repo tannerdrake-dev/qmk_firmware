@@ -33,6 +33,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 19
 #define DIODE_DIRECTION COL2ROW
 
+/*
+#define MATRIX_ROW_PINS { F5 }
+#define MATRIX_COL_PINS { F4, D4, B5, B6, B2, F6 } */
+
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
 
