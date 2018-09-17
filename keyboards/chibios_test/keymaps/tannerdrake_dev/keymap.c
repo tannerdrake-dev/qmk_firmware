@@ -18,7 +18,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "tannerdrake_dev.h"
 
 const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    {{KC_ESC}},
+    LAYOUT(
+			KC_Q,  KC_W
+	),
 };
 
 const uint16_t fn_actions[] = {

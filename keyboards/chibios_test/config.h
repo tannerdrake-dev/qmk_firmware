@@ -30,8 +30,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* key matrix size */
 #define MATRIX_ROWS 1
-#define MATRIX_COLS 1
+#define MATRIX_COLS 2
 #define DIODE_DIRECTION COL2ROW
+
+
+#define MATRIX_ROW_PINS { TEENSY_PIN23 }
+#define MATRIX_COL_PINS { TEENSY_PIN17 }
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST

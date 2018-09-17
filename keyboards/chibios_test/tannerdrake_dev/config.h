@@ -29,13 +29,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DESCRIPTION QMK keyboard firmware for ChibiOS
 
 /* key matrix size */
-#define MATRIX_ROWS 4
-#define MATRIX_COLS 19
+#define MATRIX_ROWS 1
+#define MATRIX_COLS 2
 #define DIODE_DIRECTION COL2ROW
 
-/*
-#define MATRIX_ROW_PINS { F5 }
-#define MATRIX_COL_PINS { F4, D4, B5, B6, B2, F6 } */
+
+#define MATRIX_ROW_PINS { TEENSY_PIN23 }
+#define MATRIX_COL_PINS { TEENSY_PIN17 }
 
 /* define if matrix has ghost */
 //#define MATRIX_HAS_GHOST
