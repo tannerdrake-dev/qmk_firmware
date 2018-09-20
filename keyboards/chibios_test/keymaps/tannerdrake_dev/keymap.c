@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 const uint16_t keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     LAYOUT(
-			KC_Q,  KC_W
+			KC_TAB, KC_Q,  KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, KC_LBRACKET, KC_RBRACKET, KC_BSLASH, KC_KP_7, KC_KP_8, KC_KP_9, KC_KP_PLUS
 	),
 };
 
